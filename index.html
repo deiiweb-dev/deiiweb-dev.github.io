@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deiiweb: Цифровые решения без страха и переплат</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__content">
+      <div class="hero__photo-block">
+        <img src="image/hero-team.jpg" alt="За работой" class="hero__photo" />
+        <div class="hero__quote">
+          <span class="hero__quote-text">
+            <svg width="24" height="24" fill="#22C55E" style="vertical-align:middle;"><use href="#icon-quote"></use></svg>
+            Не верил, что сайт может стоить 400 BYN. Сделали за 5 дней!
+          </span>
+          <span class="hero__quote-author">— реальный клиент</span>
+        </div>
+      </div>
+      <div class="hero__info">
+        <h1>Сайт и дизайн — не дороже смартфона</h1>
+        <p class="hero__subtitle">
+          Профессиональные цифровые решения для малого бизнеса по цене фрилансера.<br>
+          <span class="hero__accent">Дизайн, который платит за себя из кошелька клиентов</span>
+        </p>
+        <div class="hero__actions">
+          <button class="hero__btn" onclick="">Узнать стоимость →</button>
+          <span class="hero__guarantee">Бесплатная консультация</span>
+        </div>
+        
+      </div>
+    </div>
+    <!-- SVG-спрайт для иконки кавычек -->
+    <svg style="display:none;">
+      <symbol id="icon-quote" viewBox="0 0 24 24">
+        <path d="M7 17H5a3 3 0 0 1-3-3v-2a7 7 0 0 1 7-7v2a5 5 0 0 0-5 5v2a1 1 0 0 0 1 1h2v2zm10 0h-2v-2h2a1 1 0 0 0 1-1v-2a5 5 0 0 0-5-5V5a7 7 0 0 1 7 7v2a3 3 0 0 1-3 3z"/>
+      </symbol>
+    </svg>
+  </section>
+  <!-- Блок: 4 проблемы → 4 решения -->
+  <section class="problems-solutions">
+    <div class="ps__container">
+      <h2 class="ps__title">Вам знакомы эти ситуации?</h2>
+      <div class="ps__grid">
+        <div class="ps__item">
+          <div class="ps__icon">💸</div>
+          <div class="ps__problem">"Денег нет на IT"</div>
+          <div class="ps__solution">Стартуем от <b>30 BYN</b>. Рассрочка. Бесплатные аналоги платных решений</div>
+        </div>
+        <div class="ps__item">
+          <div class="ps__icon">🤯</div>
+          <div class="ps__problem">"Не разбираюсь в этом"</div>
+          <div class="ps__solution">Объясняем "на пальцах". Весь процесс — под нашим контролем</div>
+        </div>
+        <div class="ps__item">
+          <div class="ps__icon">📼</div>
+          <div class="ps__problem">"Мои визитки и так норм"</div>
+          <div class="ps__solution">Бесплатный аудит дизайна + печать новых со скидкой <b>20%</b></div>
+        </div>
+        <div class="ps__item">
+          <div class="ps__icon">⚠️</div>
+          <div class="ps__problem">"Это тысячи долларов!"</div>
+          <div class="ps__solution">Сайт-визитка от <b>300 BYN</b>. Лендинг от <b>400 BYN</b>. Без скрытых платежей</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Блок: Услуги с ценами и выгодой (обновлённая структура) -->
+  <section class="services-block">
+    <div class="services__container">
+      <h2 class="services__title">Наши услуги — выгодно и просто</h2>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon" style="color:#f59e42;">🎨</div>
+          <div class="service-card__title">Дизайн, который окупится</div>
+          <div class="service-card__desc">Визуальный стиль, который работает на ваш бизнес: визитки, буклеты, логотипы и другое.</div>
+          <div class="service-card__line">
+            <span class="service-card__name">Визитки,
+                буклеты, флаеры, баннеры:</span>
+            <div class="service-card__subdesc">Печать и дизайн полиграфии для любых задач</div>
+            <span class="service-card__price">от 30 BYN<sup class="service-card__sup">печать включена</sup></span>
+          </div>
+          <div class="service-card__line">
+            <span class="service-card__name">Прайс-листы, бланки,
+                коммерческие предложения,
+                презентации:</span>
+            <div class="service-card__subdesc">Документы, которые продают</div>
+            <span class="service-card__price">от 40 BYN<sup class="service-card__sup">печать включена</sup></span>
+          </div>
+          <div class="service-card__line">
+            <span class="service-card__name">Логотипы и Фирменный
+                стиль:</span>
+            <div class="service-card__subdesc">Создадим уникальный образ и узнаваемый стиль</div>
+            <span class="service-card__price">от 50 BYN<sup class="service-card__sup">аудит бесплатно</sup></span>
+          </div>
+          <div class="service-card__line">
+            <span class="service-card__name">Социальные сети:</span>
+            <div class="service-card__subdesc">Дизайн,
+                концепция, ведение. Оформление и стратегия для роста</div>
+            <span class="service-card__price">от 60 BYN<sup class="service-card__sup">аудит бесплатно</sup></span>
+          </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-card__icon" style="color:#2563EB;">🌐</div>
+            <div class="service-card__title">Сайты за неделю, а не за год</div>
+            <div class="service-card__desc">Лендинги и интернет-магазины, которые
+                приносят заявки и экономят ваш бюджет.</div>
+            <div class="service-card__line">
+              <span class="service-card__name">Сайт-визитка:</span>
+              <div class="service-card__subdesc">Лаконичное
+                представление компании</div>
+              <span class="service-card__price">от 300 BYN<sup class="service-card__sup">печать включена</sup></span>
+            </div>
+            <div class="service-card__line">
+              <span class="service-card__name">Лендинг:</span>
+              <div class="service-card__subdesc">Продающие
+                одностраничники</div>
+              <span class="service-card__price">от 400 BYN<sup class="service-card__sup">печать включена</sup></span>
+            </div>
+            <div class="service-card__line">
+              <span class="service-card__name">Корпоративный сайт:</span>
+              <div class="service-card__subdesc">Многостраничные
+                решения для бизнеса</div>
+              <span class="service-card__price">от 550 BYN<sup class="service-card__sup">аудит бесплатно</sup></span>
+            </div>
+            <div class="service-card__line">
+              <span class="service-card__name">Каталоги и Интернет-
+                магазины:</span>
+              <div class="service-card__subdesc">Удобные и
+                функциональные</div>
+              <span class="service-card__price">от 1000 BYN<sup class="service-card__sup">аудит бесплатно</sup></span>
+            </div>
+            
+          </div>
+  
+
+       
+
+        <div class="service-card">
+          <div class="service-card__icon" style="color:#22C55E;">⚙️</div>
+          <div class="service-card__title">IT без заморочек</div>
+          <div class="service-card__desc">Настройка техники и автоматизация — чтобы вы занимались бизнесом, а не рутиной.</div>
+          <div class="service-card__line">
+            <span class="service-card__name">Настройка компьютеров/сетей. Системное
+                администрирование</span>
+            <span class="service-card__price">бесплатная консультация<sup class="service-card__sup"> </sup></span>
+          </div>
+          <div class="service-card__line">
+            <span class="service-card__name">Разработка ПО, автоматизация рутины</span>
+            <span class="service-card__price">понятные сервисы<sup class="service-card__sup"> </sup></span>
+          </div>
+          <div class="service-card__team">
+            <a href="https://instagram.com/ershalesya" target="_blank" class="service-card__team-person">
+              <img src="image/alesia.png" alt="Алеся" class="service-card__team-photo">
+              <div class="service-card__team-name"><img src="image/icons8-instagram.gif" alt="Instagram" class="service-card__team-ig"> Алеся</div>
+              <div class="service-card__team-role">Дизайнер</div>
+            </a>
+            <a href="https://instagram.com/iakoversh" target="_blank" class="service-card__team-person">
+              <img src="image/yakov.png" alt="Яков" class="service-card__team-photo">
+              <div class="service-card__team-name"><img src="image/icons8-instagram.gif" alt="Instagram" class="service-card__team-ig"> Яков</div>
+              <div class="service-card__team-role">Программист</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Блок: Фото команды -->
+  
+  <!-- Блок: Преимущества (честное сравнение) -->
+  <section class="advantages-block">
+    <div class="advantages__container">
+      <h2 class="advantages__title">Почему Deiiweb, а не другие?</h2>
+      <div class="advantages__table-wrap">
+        <table class="advantages__table">
+          <thead>
+            <tr>
+              <th>Критерий</th>
+              <th>Обычные подрядчики</th>
+              <th>Мы</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Цена</b></td>
+              <td>Наценка 40-60%</td>
+              <td class="adv-green">Цены на 30% ниже</td>
+            </tr>
+            <tr>
+              <td><b>Технологии</b></td>
+              <td>Устаревшие</td>
+              <td class="adv-blue">Инновации с персональным подходом</td>
+            </tr>
+            <tr>
+              <td><b>Подход</b></td>
+              <td>Шаблонный</td>
+              <td class="adv-blue">Индивидуальный</td>
+            </tr>
+            <tr>
+              <td><b>Печать</b></td>
+              <td>"Ищите сами"</td>
+              <td class="adv-green">Сделаем за вас</td>
+              
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- Блок: Как экономим вам деньги (бонусы и цифры) -->
+  <section class="savings-block">
+    <div class="savings__container">
+      <h2 class="savings__title">Наши бонусы для экономных:</h2>
+      <div class="savings__grid">
+        <div class="savings__item">
+          <div class="savings__icon">🔹</div>
+          <div class="savings__text"><b>Бесплатные аналоги:</b><br>Замена дорогим сервисам (Tilda → Webflow, Photoshop → Canva, Дорогой хостинг → Бесплатные сервисы)</div>
+        </div>
+        <div class="savings__item">
+          <div class="savings__icon">🔹</div>
+          <div class="savings__text"><b>Печать за полцены:</b><br>Свои скидки у типографий — передаём вам</div>
+        </div>
+        <div class="savings__item">
+          <div class="savings__icon">🔹</div>
+          <div class="savings__text"><b>Рассрочка 0%:</b><br>Предоплата 30%, остальное — после результата</div>
+        </div>
+        <div class="savings__item">
+          <div class="savings__icon">🔹</div>
+          <div class="savings__text"><b>Готовые решения:</b><br>Шаблоны сайтов/лого — адаптируем бюджетно</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Блок: Процесс работы (просто как 1-2-3) -->
+  <section class="process-block">
+    <div class="process__container">
+      <h2 class="process__title">Как всё просто: 3 шага к результату</h2>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__icon" style="color:#2563EB;">📞</div>
+          <div class="process__step-title">1. Звонок (бесплатно)</div>
+          <div class="process__step-desc">Обсуждаем задачу и бюджет</div>
+        </div>
+        <div class="process__arrow">→</div>
+        <div class="process__step">
+          <div class="process__icon" style="color:#22C55E;">📝</div>
+          <div class="process__step-title">2. Прототип за 24 часа</div>
+          <div class="process__step-desc">Вносите правки пока не понравится</div>
+        </div>
+        <div class="process__arrow">→</div>
+        <div class="process__step">
+          <div class="process__icon" style="color:#f59e42;">🚀</div>
+          <div class="process__step-title">3. Реализация + обучение</div>
+          <div class="process__step-desc">Отдаём готовое и показываем как пользоваться</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Блок: Призыв к действию и контакты -->
+  <section class="cta-block">
+    <div class="cta__container">
+      <h2 class="cta__title">Попробуйте без риска!</h2>
+      <p class="cta__subtitle">Бесплатный аудит вашего дизайна/сайта — найдём 3 способа сэкономить</p>
+      <div class="cta__actions">
+        <a href="deiiweb.pdf" class="cta__btn cta__btn--primary" download target="_blank">Получить PDF презентацию</a>
+        <a href="#" class="cta__btn cta__btn--secondary">Заказать аудит →</a>
+      </div>
+      <div class="cta__contacts">
+        <div class="cta__contact-item"><b>Telegram:</b> <a href="https://t.me/deiiweb" target="_blank">@deiiweb</a></div>
+        <div class="cta__contact-item"><b>Email:</b> <a href="mailto:jacob.ersh@gmail.com">jacob.ersh@gmail.com</a>, <a href="mailto:alesyaersh.design@gmail.com">alesyaersh.design@gmail.com</a></div>
+        <div class="cta__contact-item"><b>Телефон:</b> <a href="tel:+375257103121">+375 25 710-31-21</a></div>
+      </div>
+    </div>
+  </section>
+  <div id="quiz-modal" class="quiz-modal">
+    <div class="quiz-modal__backdrop"></div>
+    <div class="quiz-modal__content">
+      <button class="quiz-modal__close" id="quiz-close-btn" title="Закрыть">×</button>
+      <div id="quiz-step-container">
+        <!-- Сюда будет подставляться контент квиза -->
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="main.js"></script>
+</body>
+</html> 
