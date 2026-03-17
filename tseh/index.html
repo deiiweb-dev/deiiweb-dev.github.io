@@ -217,6 +217,33 @@
             text-transform: uppercase;
             display: inline-block;
             letter-spacing: 0.04em;
+
+
+/* Стили для списка преимуществ */
+.advantage-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.advantage-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 1rem;
+}
+.advantage-list li::before {
+    display: none; /* убираем стандартную точку, если она была */
+}
+.advantage-emoji {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    min-width: 40px;
+    text-align: left;
+}
+.advantage-text strong {
+    font-weight: 700;
+    color: #1e1e1e;
+}
         }
     </style>
     <!-- Google Fonts -->
@@ -359,6 +386,41 @@
                 <div style="font-size: 0.8rem;">в Telegram/на почту</div>
             </div>
         </div>
+
+<!-- Блок ключевых преимуществ сайта -->
+<div class="section-title">Ключевые преимущества сайта</div>
+<div class="card">
+    <ul class="advantage-list">
+        <li>
+            <span class="advantage-emoji">📊</span>
+            <span class="advantage-text"><strong>Честная статистика</strong> — сколько людей посмотрели меню, нажали кнопку, оставили контакт. Этих данных нет в Инстаграме.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">💾</span>
+            <span class="advantage-text"><strong>Ваша база клиентов</strong> — собирайте контакты через форму «кофе в подарок». База принадлежит вам, а не соцсети.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">🍰</span>
+            <span class="advantage-text"><strong>Аппетитное меню</strong> — красивые фото и описания, которые повышают средний чек без участия бариста.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">🏃</span>
+            <span class="advantage-text"><strong>Удобный предзаказ</strong> — клиенты бронируют напитки онлайн, очереди рассасываются сами.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">🤝</span>
+            <span class="advantage-text"><strong>Сайт как часть сервиса</strong> — удобная визитка с меню и контактами, повышает доверие и имидж.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">🌐</span>
+            <span class="advantage-text"><strong>Больше видимости в интернете</strong> — вас найдут через поисковики и карты, даже если не подписаны в Instagram.</span>
+        </li>
+        <li>
+            <span class="advantage-emoji">🔌</span>
+            <span class="advantage-text"><strong>Никакой абонентской платы</strong> — платите только за хостинг (≈10 руб/мес) и домен (≈30 руб/год).</span>
+        </li>
+    </ul>
+</div>
 
         <!-- Варианты исполнения — в стиле меню с ценами -->
         <div class="section-title">выбор комплектации</div>
